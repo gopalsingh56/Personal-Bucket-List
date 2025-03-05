@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img id="mainImage" src="https://5.imimg.com/data5/SELLER/Default/2024/12/470579964/SF/KW/BD/8852934/men-s-multi-coloured-sporty-shoes-with-stylish-look-500x500.jpg" alt="Product Image">
+            <div class="thumbnail">
+                <img src="https://m.media-amazon.com/images/I/81U+HSswjcL._AC_UY300_.jpg" onclick="changeImage('product1.jpg')">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/12/470552802/LI/OC/AA/8852934/men-s-multi-coloured-sports-shoes-with-stylish-look-500x500.jpg" onclick="changeImage('product2.jpg')">
+                <img src="https://m.media-amazon.com/images/I/51oKALITVIL._AC_UY300_.jpg" onclick="changeImage('product3.jpg')">
+            </div>
+        </div>
+
+        <div class="product-details">
+            <h2>Stylish Sneakers</h2>
+            <p class="price">₹2700</p>
+            <p class="description">High-quality stylish sneakers for everyday wear. Available in multiple colors.</p>
+            <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
